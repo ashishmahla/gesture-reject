@@ -77,11 +77,8 @@ public class Intro extends AppCompatActivity {
         dataSet = new DataSet("file:///android_asset/gesture_set.png", "... or use default gesture settings instead.");
         dataSets.add(dataSet);
 
-        // TODO: 2/27/2018 uncomment below lines to show remaining 2 intro screens
-
-
-        //dataSet = new DataSet("file:///android_asset/bike_mode.png", "Enable bike mode and auto-reject all calls except the important ones.");
-        //dataSets.add(dataSet);
+        dataSet = new DataSet("file:///android_asset/bike_mode.png", "Enable bike mode and auto-reject all calls except the important ones.");
+        dataSets.add(dataSet);
 
         dataSet = new DataSet("file:///android_asset/location.png", "Enable location mode and roam carefree. Long press a location to delete.");
         dataSets.add(dataSet);
