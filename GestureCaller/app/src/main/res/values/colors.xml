@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#52a317</color>
+    <color name="colorPrimaryDark">#4b9215</color>
+    <color name="colorAccent">#d50000</color>
+
+    <color name="c_gesture">@color/colorPrimary</color>
+    <color name="c_gesture_uncertain">@color/colorAccent</color>
+</resources>
